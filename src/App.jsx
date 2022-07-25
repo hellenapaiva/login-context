@@ -8,7 +8,9 @@ function App() {
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/profile" element={<ProtectedLayout />} />
+          <Route path="/profile" element={<ProtectedLayout />}>
+            teste
+          </Route>
           <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>

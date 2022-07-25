@@ -31,10 +31,10 @@ export const Login = () => {
           wrapperCol={{ span: 16 }}
           onFinish={onFinish}
         >
-          <Form.Item label="Email" name="email">
+          <Form.Item label="E-mail" name="email">
             <Input />
           </Form.Item>
-          <Form.Item label="Password" name="password">
+          <Form.Item label="Senha" name="password">
             <Input.Password />
           </Form.Item>
 
