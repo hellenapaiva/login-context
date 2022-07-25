@@ -3,7 +3,7 @@
 import { useContext } from "react";
 import { AuthContext } from ".";
 
-export const userAuth = () => {
+export const useAuth = () => {
   const context = useContext(AuthContext);
 
   return context;
